@@ -3,4 +3,19 @@
   <groupId>nz.ac.massey.cs.251</groupId>
   <artifactId>Maven_Tutorial</artifactId>
   <version>1.0.0</version>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>13.0.2</maven.compiler.source>
+    <maven.compiler.target>13.0.2</maven.compiler.target>
+  </properties>
+  <dependencies>
+
+    <dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>29.0-jre</version>
+  </dependency>
+
+  </dependencies>
+
 </project>
